@@ -10,27 +10,28 @@ Review of previous OCR projects, comparison of existing offerings, in-house OCR 
 - [7. PaddleOCR](#7-paddle)
 - [8. Conclusion](#8-conclusion)
 
-# Introduction
 <a name="1-introduction"></a>
+# Introduction
 
-# Google Document AI
 <a name="2-google-doc-ai"></a>
+# Google Document AI
 
-# Microsoft Azure OCR
 <a name="3-ms-azure"></a>
+# Microsoft Azure OCR
 
-# Amazon Textract
 <a name="4-textract"></a>
+# Amazon Textract
 
-# Python Tesseract
 <a name="5-tesseract"></a>
+# Python Tesseract
 
-# EasyOCR
 <a name="6-easyocr"></a>
+# EasyOCR
 
 
-# PaddleOCR
 <a name="7-paddle"></a>
+# PaddleOCR
+
 
 **Note:** This tutorial mainly introduces the usage of PP-OCR series models, please refer to [PP-Structure Quick Start](../../ppstructure/docs/quickstart_en.md) for the quick use of document analysis related functions.
 
