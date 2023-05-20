@@ -1,7 +1,36 @@
 # OCR-review
 Review of previous OCR projects, comparison of existing offerings, in-house OCR solution 
 
+- [1. Introduction](#1-introduction)
+- [2. Google Document AI](#2-google-doc-ai)
+- [3. Microsoft Azure OCR](#3-ms-azure)
+- [4. Amazon Textract](#4-textract)
+- [5. Python Tesseract](#5-tesseract)
+- [6. EasyOCR](#6-easyocr)
+- [7. PaddleOCR](#7-paddle)
+- [8. Conclusion](#8-conclusion)
+
+# Introduction
+<a name="1-introduction"></a>
+
+# Google Document AI
+<a name="2-google-doc-ai"></a>
+
+# Microsoft Azure OCR
+<a name="3-ms-azure"></a>
+
+# Amazon Textract
+<a name="4-textract"></a>
+
+# Python Tesseract
+<a name="5-tesseract"></a>
+
+# EasyOCR
+<a name="6-easyocr"></a>
+
+
 # PaddleOCR
+<a name="7-paddle"></a>
 
 **Note:** This tutorial mainly introduces the usage of PP-OCR series models, please refer to [PP-Structure Quick Start](../../ppstructure/docs/quickstart_en.md) for the quick use of document analysis related functions.
 
@@ -270,3 +299,7 @@ for idx in range(len(result)):
 In this section, you have mastered the use of PaddleOCR whl package.
 
 PaddleOCR is a rich and practical OCR tool library that get through the whole process of data production, model training, compression, inference and deployment, please refer to the [tutorials](../../README.md#tutorials) to start the journey of PaddleOCR.
+
+
+# Conclusion
+<a name="8-conclusion"></a>
