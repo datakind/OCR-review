@@ -145,8 +145,8 @@ paddleocr --image_dir ./doc/imgs_en/254.jpg --lang=en
 ```
 
 <div align="center">
-    <img src="../imgs_en/254.jpg" width="300" height="600">
-    <img src="../imgs_results/multi_lang/img_02.jpg" width="600" height="600">
+    <img src="https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.6/doc/imgs_en/254.jpg" width="300" height="600">
+    <img src="https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.6/doc/imgs_results/multi_lang/img_02.jpg" width="600" height="600">
 </div>
 The result is a list, each item contains a text box, text and recognition confidence
 
