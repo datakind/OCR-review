@@ -215,7 +215,7 @@ Output will be a list, each item contains bounding box, text and recognition con
 Visualization of results
 
 <div align="center">
-    <img src="../imgs_results/whl/12_det_rec.jpg" width="800">
+    <img src="https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.6/doc/imgs_results/whl/12_det_rec.jpg" width="800">
 </div>
 
 If the input is a PDF file, you can refer to the following code for visualization
