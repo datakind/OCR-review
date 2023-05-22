@@ -7,8 +7,9 @@ Review of previous OCR projects, comparison of existing offerings, in-house OCR 
 - [4. Amazon Textract](#4-textract)
 - [5. Python Tesseract](#5-tesseract)
 - [6. EasyOCR](#6-easyocr)
-- [7. PaddleOCR](#7-paddle)
-- [8. Conclusion](#8-conclusion)
+- [7. Keras-OCR](#7-keras)
+- [8. PaddleOCR](#8-paddle)
+- [9. Conclusion](#9-conclusion)
 
 <a name="1-introduction"></a>
 # Introduction
@@ -28,9 +29,12 @@ Review of previous OCR projects, comparison of existing offerings, in-house OCR 
 <a name="6-easyocr"></a>
 # EasyOCR
 
+<a name="7-keras"></a>
+# Keras-OCR
 
-<a name="7-paddle"></a>
+<a name="8-paddle"></a>
 # PaddleOCR
+
 
 
 **Note:** This tutorial mainly introduces the usage of PP-OCR series models, please refer to [PP-Structure Quick Start](../../ppstructure/docs/quickstart_en.md) for the quick use of document analysis related functions.
@@ -303,4 +307,4 @@ PaddleOCR is a rich and practical OCR tool library that get through the whole pr
 
 
 # Conclusion
-<a name="8-conclusion"></a>
+<a name="9-conclusion"></a>
