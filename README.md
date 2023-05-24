@@ -13,9 +13,43 @@ Review of previous OCR projects, comparison of existing offerings, in-house OCR 
 
 <a name="1-introduction"></a>
 # Introduction
+OCR, or optical character recognition, is a technology that can be used to extract text from images or scanned documents. This can be useful for a variety of tasks, such as digitizing old documents, extracting data from forms, and automating data entry.
+
+There are a number of different OCR tools available, each with its own strengths and weaknesses. Some of the most popular OCR tools include:
+
+- Google Document AI: Google Document AI is a cloud-based OCR service that can be used to extract text from a variety of documents, including PDFs, images, and scanned documents.
+- Microsoft Azure OCR: Microsoft Azure OCR is another cloud-based OCR service that offers a variety of features, including batch processing and multilingual support.
+- Amazon Textract: Amazon Textract is a cloud-based OCR service that can be used to extract text from a variety of documents, including images, scanned documents, and receipts.
+- Python Tesseract: Python Tesseract is an open-source OCR library that can be used to extract text from images and scanned documents.
+- EasyOCR: EasyOCR is a Python OCR library that is easy to use and can be used to extract text from a variety of documents, including images, scanned documents, and receipts.
+- Keras-OCR: Keras-OCR is a Python OCR library that is built on top of the Keras deep learning framework. It can be used to train custom OCR models for specific tasks.
+- PaddleOCR: PaddleOCR is a Python OCR library that is built on top of the PaddlePaddle deep learning framework. It can be used to train custom OCR models for specific tasks.
+
+When choosing an OCR tool, it is important to consider the following factors:
+
+- The type of documents that you need to process.
+- The accuracy of the OCR tool.
+- The cost of the OCR tool.
+- The ease of use of the OCR tool.
+
+Once you have chosen an OCR tool, you can start to extract text from your documents. The process of extracting text from documents using OCR can be broken down into the following steps:
+
+- Pre-processing: This step involves cleaning up the document and removing any noise or artifacts.
+- Segmentation: This step involves dividing the document into individual characters or words.
+- Recognition: This step involves identifying the characters or words in each segment.
+- Post-processing: This step involves correcting any errors that were made during the recognition step.
+
+The accuracy of the OCR process will depend on the quality of the document, the pre-processing steps that are used, and the recognition algorithm that is used.
+
+OCR is a powerful technology that can be used to automate a variety of tasks. By choosing the right OCR tool and following the correct process, you can extract text from documents with high accuracy.
 
 <a name="2-google-doc-ai"></a>
 # Google Document AI
+
+## Pre-processing
+## Segmentation 
+## Recognition 
+## Post-processing
 ```python
 
 from __future__ import annotations
