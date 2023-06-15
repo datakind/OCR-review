@@ -3,7 +3,7 @@ Review of previous OCR projects, comparison of existing offerings, in-house OCR 
 
 [1. Introduction](#1-introduction)
 	
-- [VGG Dataset](#dataset)
+<!--- - [VGG Dataset](#dataset) --->
 - [Form Understanding in 
 Noisy Scanned Documents (FUNSD)](#funsd)
 	
@@ -37,7 +37,7 @@ There are a number of different OCR tools available, each with its own strengths
 - Keras-OCR: Keras-OCR is a Python OCR library that is built on top of the Keras deep learning framework. It can be used to train custom OCR models for specific tasks.
 - PaddleOCR: PaddleOCR is a Python OCR library that is built on top of the PaddlePaddle deep learning framework. It can be used to train custom OCR models for specific tasks.
 
-When choosing an OCR tool, it is important to consider the following factors:
+<!---When choosing an OCR tool, it is important to consider the following factors:
 
 - The type of documents that you need to process.
 - The accuracy of the OCR tool.
@@ -70,6 +70,7 @@ Dataset can be downloaded directly from the Oxford website:
 ```
 wget https://www.robots.ox.ac.uk/~vgg/data/text/mjsynth.tar.gz
 ```
+--->
 <a name="funsd"></a>
 ## Form Understanding in Noisy Scanned Documents (FUNSD)
 To train OCR models, the FUNSD dataset from Jaume, et al ([2019](https://arxiv.org/pdf/1905.13538.pdf)) was utilized. The dataset consists of 5304 relations, 9707 semantic entities, 31485 words, and 199 fully annotated forms. Form annotation, or ground truth, is stored in the JSON file format.
