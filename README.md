@@ -77,6 +77,13 @@ To train OCR models, the FUNSD dataset from Jaume, et al ([2019](https://arxiv.o
 
 [Example](https://guillaumejaume.github.io/FUNSD/img/two_forms.png)
 
+### Downloading the dataset
+Dataset can be downloaded directly from Jaume website:
+```
+! wget https://guillaumejaume.github.io/FUNSD/dataset.zip
+! unzip dataset.zip && mv dataset data && rm -rf dataset.zip __MACOSX
+```
+
 G. Jaume, H. K. Ekenel, J. Thiran "FUNSD: A Dataset for Form Understanding in Noisy Scanned Documents," 2019
 
 
