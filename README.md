@@ -3,7 +3,9 @@ Review of previous OCR projects, comparison of existing offerings, in-house OCR 
 
 [1. Introduction](#1-introduction)
 	
-- [Dataset](#dataset)
+- [VGG Dataset](#dataset)
+- [Form Understanding in 
+Noisy Scanned Documents (FUNSD)](#funsd)
 	
 [2. Google Document AI](#2-google-doc-ai)
 
@@ -54,7 +56,7 @@ The accuracy of the OCR process will depend on the quality of the document, the 
 OCR is a powerful technology that can be used to automate a variety of tasks. By choosing the right OCR tool and following the correct process, you can extract text from documents with high accuracy.
 
 <a name="dataset"></a>
-## Dataset
+## VGG Dataset
 The [MJSynth](https://www.robots.ox.ac.uk/~vgg/data/text/) dataset consists of 9 million images covering 90k English words, and includes the training, validation and test splits. It was produced by the Visual Geometry Group at the University of Oxford.
 
 Authors: Max Jaderberg, Karen Simonyan, Andrea Vedaldi, Andrew Zisserman
@@ -68,6 +70,13 @@ Dataset can be downloaded directly from the Oxford website:
 ```
 wget https://www.robots.ox.ac.uk/~vgg/data/text/mjsynth.tar.gz
 ```
+<a name="funsd"></a>
+## Form Understanding in Noisy Scanned Documents (FUNSD)
+To train OCR models, the FUNSD dataset from Jaume, et al ([2019](https://arxiv.org/pdf/1905.13538.pdf)) was utilized. The dataset consists of 5304 relations, 9707 semantic entities, 31485 words, and 199 fully annotated forms. Form annotation, or ground truth, is stored in the JSON file format.
+
+[Example](https://guillaumejaume.github.io/FUNSD/img/two_forms.png)
+
+G. Jaume, H. K. Ekenel, J. Thiran "FUNSD: A Dataset for Form Understanding in Noisy Scanned Documents," 2019
 
 
 <a name="2-google-doc-ai"></a>
