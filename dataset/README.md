@@ -1,9 +1,6 @@
-# VGG Dataset
+## Form Understanding in Noisy Scanned Documents (FUNSD)
+To train OCR models, the FUNSD dataset from Jaume, et al ([2019](https://arxiv.org/pdf/1905.13538.pdf)) was utilized. The dataset consists of 5304 relations, 9707 semantic entities, 31485 words, and 199 fully annotated forms. Form annotation, or ground truth, is stored in the JSON file format.
 
-The [MJSynth](https://www.robots.ox.ac.uk/~vgg/data/text/) dataset consists of 9 million images covering 90k English words, and includes the training, validation and test splits. It was produced by the Visual Geometry Group at the University of Oxford.
+[Example](https://guillaumejaume.github.io/FUNSD/img/two_forms.png)
 
-Authors: Max Jaderberg, Karen Simonyan, Andrea Vedaldi, Andrew Zisserman
-
-Publications: [ECCV 2014](https://www.robots.ox.ac.uk/~vgg/publications/2014/Jaderberg14/), [NeurIPS 2014](https://www.robots.ox.ac.uk/~vgg/publications/2014/Jaderberg14c/), [IJCV 2016](http://www.robots.ox.ac.uk/~vgg/publications/2016/Jaderberg16/)
-
-Size: 15.79 GB
+G. Jaume, H. K. Ekenel, J. Thiran "FUNSD: A Dataset for Form Understanding in Noisy Scanned Documents," 2019
