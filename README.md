@@ -1,15 +1,25 @@
 # OCR-review
 Review of previous OCR projects, comparison of existing offerings, in-house OCR solution 
 
-- [1. Introduction](#1-introduction)
-- [2. Google Document AI](#2-google-doc-ai)
-- [3. Microsoft Azure OCR](#3-ms-azure)
-- [4. Amazon Textract](#4-textract)
-- [5. Python Tesseract](#5-tesseract)
-- [6. EasyOCR](#6-easyocr)
-- [7. Keras-OCR](#7-keras)
-- [8. PaddleOCR](#8-paddle)
-- [9. Conclusion](#9-conclusion)
+[1. Introduction](#1-introduction)
+	
+- [Dataset](#dataset)
+	
+[2. Google Document AI](#2-google-doc-ai)
+
+[3. Microsoft Azure OCR](#3-ms-azure)
+
+[4. Amazon Textract](#4-textract)
+
+[5. Python Tesseract](#5-tesseract)
+
+[6. EasyOCR](#6-easyocr)
+
+[7. Keras-OCR](#7-keras)
+
+[8. PaddleOCR](#8-paddle)
+
+[9. Conclusion](#9-conclusion)
 
 <a name="1-introduction"></a>
 # Introduction
@@ -42,6 +52,16 @@ Once you have chosen an OCR tool, you can start to extract text from your docume
 The accuracy of the OCR process will depend on the quality of the document, the pre-processing steps that are used, and the recognition algorithm that is used.
 
 OCR is a powerful technology that can be used to automate a variety of tasks. By choosing the right OCR tool and following the correct process, you can extract text from documents with high accuracy.
+
+<a name="dataset"></a>
+## Dataset
+The [MJSynth](https://www.robots.ox.ac.uk/~vgg/data/text/) dataset consists of 9 million images covering 90k English words, and includes the training, validation and test splits. It was produced by the Visual Geometry Group at the University of Oxford.
+
+Authors: Max Jaderberg, Karen Simonyan, Andrea Vedaldi, Andrew Zisserman
+
+Publications: [ECCV 2014](https://www.robots.ox.ac.uk/~vgg/publications/2014/Jaderberg14/), [NeurIPS 2014](https://www.robots.ox.ac.uk/~vgg/publications/2014/Jaderberg14c/), [IJCV 2016](http://www.robots.ox.ac.uk/~vgg/publications/2016/Jaderberg16/)
+
+Size: 15.79 GB
 
 <a name="2-google-doc-ai"></a>
 # Google Document AI
