@@ -63,6 +63,13 @@ Publications: [ECCV 2014](https://www.robots.ox.ac.uk/~vgg/publications/2014/Jad
 
 Size: 15.79 GB
 
+### Downloading the dataset
+Dataset can be downloaded directly from the Oxford website:
+```
+wget https://www.robots.ox.ac.uk/~vgg/data/text/mjsynth.tar.gz
+```
+
+
 <a name="2-google-doc-ai"></a>
 # Google Document AI
 
